@@ -1,0 +1,137 @@
+/* Reset some default styles of the browser */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Use a modern sans-serif font */
+body, h1, h2, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Give the background a dark color */
+body {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #222222;
+}
+
+header h1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #FFD700; /* Changed the hover color from blue to gold */
+}
+
+/* Hero section styles */
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('yuriy-kovalev-nN1HSDtKdlw-unsplash.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#hero .content {
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #FFD700; /* Changed the background color from blue to gold */
+  color: #121212; /* Changed the text color from white to black */
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #FFC300; /* Added a hover effect with a slightly darker shade of gold */
+}
+
+/* Content sections styles */
+.content {
+  padding: 80px 50px;
+  text-align: center;
+}
+
+#about {
+  background-color: #1f1f1f;
+}
+
+#features {
+  background-color: #2e2e2e;
+}
+
+.content:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  font-size: 18px;
+  padding-left: 0;
+}
+
+/* Footer styles */
+footer {
+  padding: 20px;
+  background-color: #222222;
+  text-align: center;
+}
+
+footer p {
+  color: #ffffff;
+}
