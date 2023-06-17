@@ -22,13 +22,13 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #222222;
+  background-color: #000000; /* Changed background color */
+  height: 80px; /* Define a height for the header */
 }
 
 .logo {
-  height: 50px;
-  width: 150px; /* Added width property to stretch the logo */
-  object-fit: cover; /* This ensures that the logo scales properly */
+  height: 100%; /* Logo takes full height of header */
+  object-fit: contain; /* Ensures the logo image aspect ratio is maintained */
 }
 
 nav ul {
@@ -57,7 +57,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background1.jpeg'); /* Added background image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background1.jpeg');
   background-size: cover;
   background-position: center;
 }
