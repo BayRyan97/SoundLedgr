@@ -27,6 +27,8 @@ header {
 
 .logo {
   height: 50px;
+  width: 150px; /* Added width property to stretch the logo */
+  object-fit: cover; /* This ensures that the logo scales properly */
 }
 
 nav ul {
