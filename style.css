@@ -116,7 +116,7 @@ nav a:hover {
 
 .feature-item {
   text-align: center;
-  flex-basis: 22%; /* This will ensure that each item takes up roughly a quarter of the container */
+  flex-basis: 40%; /* This will ensure that each item takes up roughly a quarter of the container */
 }
 
 .feature-icon {
