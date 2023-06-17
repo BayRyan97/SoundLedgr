@@ -77,9 +77,39 @@
     </div>
   </section>
 
+<section id="faq">
+    <div class="content">
+        <h2>FAQ</h2>
+
+        <div class="faq-item">
+            <button class="faq-question">What is SoundLedgr?</button>
+            <div class="faq-answer">
+                <p>SoundLedgr is your trusted guide in the exciting world of Web3...</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I get started?</button>
+            <div class="faq-answer">
+                <p>To get started with SoundLedgr, first, you need to...</p>
+            </div>
+        </div>
+
+        <!-- Add more FAQ items here -->
+    </div>
+</section>
+  
   <footer>
     <p>SoundLedgr: Your Web3 Sherpa, Unleashing Your Full Earning Potential in the Digital Frontier</p>
     <p>&copy; 2023 SoundLedgr. All rights reserved.</p>
   </footer>
+<script>
+    document.querySelectorAll('.faq-question').forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            answer.style.maxHeight = answer.style.maxHeight ? null : answer.scrollHeight + 'px';
+        });
+    });
+</script>
 </body>
 </html>
