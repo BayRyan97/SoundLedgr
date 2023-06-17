@@ -29,7 +29,7 @@ header {
 .logo {
   height: 100%; /* Logo takes full height of header */
   width: 150px; /* Added width property to stretch the logo */
-  object-fit: contain; /* Ensures the logo image aspect ratio is maintained */
+  object-fit: cover; /* Ensures the logo image aspect ratio is maintained */
 }
 
 nav ul {
