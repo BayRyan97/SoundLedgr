@@ -134,6 +134,12 @@ footer {
   text-align: center;
 }
 
+footer {
+  padding: 20px;
+  background-color: #000000; /* Footer background color set to black */
+  text-align: center;
+}
+
 footer p {
-  color: #000000;
+  color: #ffffff; /* Footer text color set to white */
 }
