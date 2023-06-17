@@ -102,10 +102,40 @@ nav a:hover {
 #about {
   background-color: #1f1f1f;
 }
-
+/*start features*/
 #features {
   background-color: #2e2e2e;
 }
+
+.feature-grid {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.feature-item {
+  text-align: center;
+  flex-basis: 22%; /* This will ensure that each item takes up roughly a quarter of the container */
+}
+
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #FFD700; /* Change this to the desired background color of the circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+/*end circles*/
 
 .content:not(:last-child) {
   margin-bottom: 40px;
