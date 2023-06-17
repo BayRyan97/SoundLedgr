@@ -61,7 +61,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Bachground2.JPEG');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background3.jpeg');
   background-size: cover;
   background-position: center;
 }
