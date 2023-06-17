@@ -108,7 +108,7 @@ nav a:hover {
 
 /* Features section */
 #features {
-  background-color: #2e2e2e;
+  background-color: #000000;
 }
 
 .feature-grid {
@@ -121,7 +121,7 @@ nav a:hover {
 .feature-item {
   text-align: center;
   flex-basis: 40%; /* This will ensure that each item takes up roughly a quarter of the container */
-  max-width: 80%; /* This controls the maximum width of the text box */
+  max-width: 70%; /* This controls the maximum width of the text box */
   padding: 0 10px; /* This gives some horizontal padding to the text box */
 }
 
