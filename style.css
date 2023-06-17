@@ -170,5 +170,6 @@ footer {
 }
 
 footer p {
+  background-color: #000000; /* Footer background color set to black */
   color: #ffffff; /* Footer text color set to white */
 }
