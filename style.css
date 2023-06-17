@@ -98,6 +98,7 @@ nav a:hover {
 
 /* Content sections styles */
 .content {
+  background-color: #000000;
   padding: 80px 50px;
   text-align: center;
 }
