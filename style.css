@@ -168,3 +168,9 @@ footer {
 footer p {
   color: #ffffff;
 }
+
+/* About section content narrower */
+.about-content {
+    max-width: 800px; /* You can set this to whatever width you like */
+    margin: 0 auto;   /* This centers the content horizontally */
+}
