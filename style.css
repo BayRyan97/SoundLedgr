@@ -139,93 +139,22 @@ nav a:hover {
 }
 
 .content:not(:last-child) {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
-h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-ul {
-  list-style: none;
-  font-size: 18px;
-  padding-left: 0;
-}
-
-/* Footer styles */
-footer {
-  padding: 20px;
-  background-color: #000000;
-  text-align: center;
-}
-
-footer p {
-  color: #ffffff;
-}
-
-/* About section content narrower */
-.about-content {
-    font-size: 35px;
-    max-width: 800px; /* You can set this to whatever width you like */
-    margin: 0 auto;   /* This centers the content horizontally */
-}
-
-/* Rest of the CSS */
-
-/* New styles for FAQ cards and drop shadows */
-.faq-item {
-    background-color: #222222; /* slightly lighter than background for subtle distinction */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Drop shadow */
-    margin: 20px 0; /* Space between cards */
-    padding: 20px; /* Padding inside card */
-    max-width: 800px; /* Maximum width of cards */
-    margin-left: auto; /* Center the cards horizontally */
-    margin-right: auto;
+/* FAQ Section Card and Shadow */
+.faq-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .faq-question {
-    background-color: transparent; /* No background color */
-    color: #ffffff;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
-    font-size: 18px;
-    font-weight: 600; /* Make font weight slightly heavier */
-    margin-bottom: 10px; /* Space between question and answer */
-    transition: background-color 0.3s ease-in-out;
-}
-
-.faq-question:hover {
-    background-color: #FFD700;
-    color: #000000;
+    margin-bottom: 10px;
 }
 
 .faq-answer {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-    background-color: #121212;
-    padding: 0 10px;
-    text-align: left;
-    border-radius: 4px; /* Rounded corners on answer */
-}
-
-.faq-answer p {
-    padding: 10px 0;
-    color: #ffffff;
-}
-
-/* Optional: additional style for FAQ section title */
-#faq h2 {
-    margin-bottom: 40px;
+    margin-left: 10px;
 }
