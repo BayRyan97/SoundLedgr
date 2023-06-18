@@ -176,12 +176,22 @@ footer p {
     margin: 0 auto;   /* This centers the content horizontally */
 }
 
+/* Rest of the CSS */
+
+/* New styles for FAQ cards and drop shadows */
 .faq-item {
-    margin-bottom: 15px;
+    background-color: #222222; /* slightly lighter than background for subtle distinction */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Drop shadow */
+    margin: 20px 0; /* Space between cards */
+    padding: 20px; /* Padding inside card */
+    max-width: 800px; /* Maximum width of cards */
+    margin-left: auto; /* Center the cards horizontally */
+    margin-right: auto;
 }
 
 .faq-question {
-    background-color: #000000;
+    background-color: transparent; /* No background color */
     color: #ffffff;
     padding: 10px;
     width: 100%;
@@ -190,14 +200,15 @@ footer p {
     cursor: pointer;
     outline: none;
     font-size: 18px;
-    transition: background-color 0.3s ease-in-out; /* Add this line for smooth transition */
+    font-weight: 600; /* Make font weight slightly heavier */
+    margin-bottom: 10px; /* Space between question and answer */
+    transition: background-color 0.3s ease-in-out;
 }
 
 .faq-question:hover {
-    background-color: #FFD700; /* This changes the background color on hover */
+    background-color: #FFD700;
     color: #000000;
 }
-
 
 .faq-answer {
     max-height: 0;
@@ -206,9 +217,15 @@ footer p {
     background-color: #121212;
     padding: 0 10px;
     text-align: left;
+    border-radius: 4px; /* Rounded corners on answer */
 }
 
 .faq-answer p {
     padding: 10px 0;
+    color: #ffffff;
 }
 
+/* Optional: additional style for FAQ section title */
+#faq h2 {
+    margin-bottom: 40px;
+}
