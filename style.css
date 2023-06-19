@@ -194,8 +194,8 @@ footer p {
 }
 
 .faq-question:hover {
-    background-color: #FFD700; /* This changes the background color on hover */
-    color: #000000;
+    background-color: #000000; /* This changes the background color on hover */
+    color: #FFD700;
 }
 
 
