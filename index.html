@@ -37,39 +37,70 @@
         </div>
     </div>
 </section>
-
-  <section id="features">
+<!-- start popup -->
+<section id="features">
     <div class="content">
-      <h2>Features</h2>
-      <div class="feature-grid">
-        <div class="feature-item">
-          <div class="feature-icon">
-            <i class="fas fa-coins" style="color: #000000;"></i> <!-- Font Awesome NFT-like icon -->
-          </div>
-          <p>Create and sell NFTs for your albums</p>
+        <h2>Features</h2>
+        <div class="feature-grid">
+            <div class="feature-item" onclick="togglePopup('popup1')">
+                <div class="feature-icon">
+                    <i class="fas fa-coins" style="color: #000000;"></i> <!-- Font Awesome NFT-like icon -->
+                </div>
+                <p>Create and sell NFTs for your albums</p>
+            </div>
+            <div id="popup1" class="popup">
+                <div class="popup-content">
+                    <span class="close" onclick="togglePopup('popup1')">&times;</span>
+                    <h3>Create and sell NFTs for your albums</h3>
+                    <p>Empower your musical journey by creating and selling NFTs of your albums...</p>
+                </div>
+            </div>
+            
+            <div class="feature-item" onclick="togglePopup('popup2')">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-handshake" style="color: #000000;"></i> <!-- Font Awesome copyright icon -->
+                </div>
+                <p>Retain ownership, establish copyright and control of your music</p>
+            </div>
+            <div id="popup2" class="popup">
+                <div class="popup-content">
+                    <span class="close" onclick="togglePopup('popup2')">&times;</span>
+                    <h3>Retain ownership, establish copyright and control of your music</h3>
+                    <p>Take full control over your creative work...</p>
+                </div>
+            </div>
+            
+            <div class="feature-item" onclick="togglePopup('popup3')">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-plug" style="color: #000000;"></i> <!-- Font Awesome audience icon -->
+                </div>
+                <p>Connect and engage with your audience</p>
+            </div>
+            <div id="popup3" class="popup">
+                <div class="popup-content">
+                    <span class="close" onclick="togglePopup('popup3')">&times;</span>
+                    <h3>Connect and engage with your audience</h3>
+                    <p>Build a closer relationship with your audience...</p>
+                </div>
+            </div>
+            
+            <div class="feature-item" onclick="togglePopup('popup4')">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-bar" style="color: #000000;"></i> <!-- Font Awesome analytics icon -->
+                </div>
+                <p>Gain insights into your sales with detailed analytics</p>
+            </div>
+            <div id="popup4" class="popup">
+                <div class="popup-content">
+                    <span class="close" onclick="togglePopup('popup4')">&times;</span>
+                    <h3>Gain insights into your sales with detailed analytics</h3>
+                    <p>Track and analyze your sales to make informed decisions...</p>
+                </div>
+            </div>
         </div>
-        <div class="feature-item">
-          <div class="feature-icon">
-            <i class="fa-solid fa-handshake" style="color: #000000;"></i> <!-- Font Awesome copyright icon -->
-          </div>
-          <p>Retain ownership, establish copyright and control of your music</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">
-            <i class="fa-solid fa-plug" style="color: #000000;"></i> <!-- Font Awesome audience icon -->
-          </div>
-          <p>Connect and engage with your audience</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">
-            <i class="fas fa-chart-bar" style="color: #000000;"></i> <!-- Font Awesome analytics icon -->
-          </div>
-          <p>Gain insights into your sales with detailed analytics</p>
-        </div>
-      </div>
     </div>
-  </section>
-
+</section>
+<!-- end popup -->
   <section id="contact">
     <div class="content">
       <h2>Contact Us</h2>
@@ -125,6 +156,7 @@
     <p>SoundLedgr: Your Web3 Sherpa, Unleashing Your Full Earning Potential in the Digital Frontier</p>
     <p>&copy; 2023 SoundLedgr. All rights reserved.</p>
   </footer>
+
 <script>
     document.querySelectorAll('.faq-question').forEach(question => {
         question.addEventListener('click', () => {
@@ -133,6 +165,10 @@
         });
     });
 </script>
+  
+<script src="togglePopup.js"></script>
+
+  
 </body>
 </html>
 
