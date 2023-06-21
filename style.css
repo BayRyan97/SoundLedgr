@@ -211,3 +211,35 @@ footer p {
 .faq-answer p {
     padding: 10px 0;
 }
+
+/* Start of media query for screens with a max width of 768px */
+@media screen and (max-width: 768px) {
+    body, h1, h2, p {
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 40px 20px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+    }
+
+    .faq-question {
+        font-size: 16px;
+    }
+
+    /* Make feature items stack vertically */
+    .feature-grid {
+        flex-direction: column;
+    }
+
+    .feature-item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+/* End of media query */
+
+
