@@ -103,7 +103,10 @@ nav a:hover {
 }
 
 #features, #contact {
-  background-color: #000000; /* Set background color to black */
+    background-image: url('ContactusBCK.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; /* This makes sure your image covers the whole section */
+    background-position: center; /* This centers your background image */
 }
 
 /* Features section */
